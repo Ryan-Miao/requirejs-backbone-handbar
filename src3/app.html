@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>for Handlebars block helper</title>
+</head>
+<body>
+
+<div id="id"></div>
+<script type="text/x-handlebars-template" id="view-template">
+	<h3>This is a template</h3>
+	{{#if isTrue}}
+		<p>The first paragraph</p>
+	{{else}}
+		<p>The second paragraph</p>
+	{{/if}}
+</script>
+
+
+<script src="./js/libs/require.js" data-main="./js/main"></script>
+
+</body>
+</html>
